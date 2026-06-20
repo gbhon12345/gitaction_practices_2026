@@ -10,3 +10,10 @@ jobs:
     steps:
       - name: Say hello to everyone
         run: echo "Hello Everyone..!!"
+
+  Give_morning_greets:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Say Good Monring 
+        run: echo "Good Morning Everyone..!! have a nice day ahead"
