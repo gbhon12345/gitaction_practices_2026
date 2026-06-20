@@ -3,9 +3,9 @@
  ## Concepts
 
  ## 1. Workflow
- For creating the github action workflow you need to have '.github/workflows' directory in git repo.
+ For creating the github action workflow you need to have `.github/workflows` directory in git repo.
 
-then inside this repo '.github/workflows' you have to write down your workflows file with an extension .yml
+then inside this repo `.github/workflows` you have to write down your workflows file with an extension .yml
 You can go with following instructions while writting the workfllos for your pipeline
 ## Workflow
 ## Jobs
