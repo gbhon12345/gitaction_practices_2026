@@ -12,6 +12,7 @@ jobs:
         run: echo "Hello Everyone..!!"
 
   Give_morning_greets:
+    needs: say_hello
     runs-on: ubuntu-latest
 
     steps:
