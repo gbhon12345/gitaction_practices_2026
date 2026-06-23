@@ -1,0 +1,19 @@
+name: Auto linter
+
+on: 
+  push:
+    paths: "*.py"
+
+
+jobs:
+  code:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clome the code form 
+        uses: actions/checkout@v7
+
+      - name: install python linter
+        run: pip install ruff
+
+      - name: LINTING THE CODE
+        run: ruff check .
