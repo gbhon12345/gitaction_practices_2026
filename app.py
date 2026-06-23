@@ -1,7 +1,7 @@
 import os
 
 def greet(name):
-    print("Hello " + name)
+    print("Hello ..." + name)
 
 unused_variable = 42
 
